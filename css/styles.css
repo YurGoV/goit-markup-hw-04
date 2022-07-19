@@ -368,7 +368,6 @@ img {
 
 .command {
     background: #F5F4FA;
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -422,11 +421,14 @@ img {
 
 }
 
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .customers-list {
     display: flex;
-    width: 1170px;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 
@@ -471,7 +473,6 @@ img {
 .footer {
 padding-top: 60px;
 padding-bottom: 60px;
-max-width: 1600px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -581,6 +582,13 @@ margin-right: auto;
     margin: calc(var(--indent) / 2);
     border: 1px solid #EEEEEE;
   }
+
+.card-netting-item:hover,
+.card-netting-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+  
 .proj-names {
     font-weight: 700;
     font-size: 18px;
